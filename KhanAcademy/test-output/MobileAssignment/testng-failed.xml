@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MobileAssignment]">
+  <test thread-count="5" name="Final(failed)">
+    <classes>
+      <class name="testcase.OpenApplication">
+        <methods>
+          <include name="openApp"/>
+          <include name="signIn"/>
+        </methods>
+      </class> <!-- testcase.OpenApplication -->
+    </classes>
+  </test> <!-- Final(failed) -->
+</suite> <!-- Failed suite [MobileAssignment] -->
